@@ -2,6 +2,8 @@
 
     <div class="col-md-10" id="content'">
       <h2 class="first">{{ .Title  }}</h2>
+      <p class="date">Published on {{ dateFormat "Monday, Jan 2, 2006" .Date }}</p>
+      
       {{ .Content }}
     </div>
   </div>

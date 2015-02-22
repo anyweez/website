@@ -9,6 +9,9 @@ body {
   padding-top: 0px;
   margin-top: 0px; }
 
+.date {
+  color: #999; }
+
 #sidebar {
   text-align: center;
   padding-right: 1%; }
