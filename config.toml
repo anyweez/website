@@ -2,3 +2,6 @@ baseurl = "http://www.lukesegars.com/"
 languageCode = "en-us"
 title = "lukesegars.com"
 theme  = "salis"
+
+[taxonomies]
+  tag = "tags"

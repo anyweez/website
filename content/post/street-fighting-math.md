@@ -1,7 +1,7 @@
 +++
 date = "2015-02-22T13:04:15-08:00"
 tags = []
-title = "Street Fighting Math and the Age of Inspiration"
+title = "Street fighting math and the age of inspiration"
 +++
 
 It is pretty rare to see an entire field be redefined before you, especially when you're relatively young. Education, I think, is both a tremendously important practice, both culturally and socially, and is nearing on it's way up a climb that will shatter what exists today with obsolescence. The very objective of education has 
