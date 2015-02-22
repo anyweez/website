@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Compile all of the CSS into a single file.
+sass themes/salis/static/scss/_bootstrap.scss themes/salis/static/css/bootstrap.css
+sass themes/salis/static/scss/_salis.scss themes/salis/static/css/salis.css
+
+# Run hugo explicitly (no effect if hugo server is watching this directory) 
+# hugo --verbose

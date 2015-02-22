@@ -1,0 +1,15 @@
+{{ partial "header.html" . }}
+
+    <div class="col-md-10" id="content'">
+    	{{ range $index, $element := first 10 (where .Data.Pages "Type" "post") }}
+    	{{ if eq $index 0 }}
+    	<h2 class="first"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+    	{{ else }}
+		<h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+    	{{ end }}
+
+    	<p>{{ .Summary }}</p>
+    	{{ end }}
+    </div>
+
+{{ partial "footer.html" . }}

@@ -1,0 +1,16 @@
+{{ partial "header.html" . }}
+
+    <div class="col-md-10" id="content'">
+      {{ range $index, $element := first 5 .Data.Pages }}
+        {{ if eq $index 0 }}
+        <h2 class="first">{{ .Title  }}</h2>
+        {{ else }}
+        <h2>{{ .Title  }}</h2>
+        {{ end }}
+        
+        <p>{{ .Summary }}</p>
+      {{ end}}
+    </div>
+  </div>
+
+{{ partial "footer.html" . }}

@@ -1,0 +1,22 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  padding: 50px; }
+  body h1 {
+    font-size: 30px; }
+
+.first {
+  padding-top: 0px;
+  margin-top: 0px; }
+
+#sidebar {
+  text-align: center;
+  padding-right: 1%; }
+  #sidebar #profile-pic {
+    width: 60%;
+    height: 10%;
+    border: 2px solid #121; }
+  #sidebar #subtitle {
+    font-size: 16px; }
+
+/*# sourceMappingURL=salis.css.map */
