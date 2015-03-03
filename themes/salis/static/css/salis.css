@@ -12,6 +12,10 @@ body {
 .date {
   color: #999; }
 
+.post {
+  border-left: 5px solid #eee;
+  padding-left: 12px; }
+
 #sidebar {
   text-align: center;
   padding-right: 1%; }

@@ -1,0 +1,32 @@
+{{ partial "header.html" . }}
+
+    <div class="col-md-10" id="content'">
+      {{ range $index, $element := first 10 (where .Data.Pages "Type" "post") }}
+      <div class="post">
+            {{ if eq $index 0 }}
+          <h2 class="first"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+            {{ else }}
+            <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+            {{ end }}
+            <p class="date">Published on {{ dateFormat "Monday, Jan 2, 2006" .Date }}
+              {{ $len := len .Params.tags }}
+              {{ if gt $len 0 }}
+                under 
+                {{ range $index, $element := sort .Params.tags }} 
+                  {{ if and (le (sub (sub $len 1) $index) 0) (gt $len 1) }}
+                    and <a href="/tags/{{ $element | urlize }}">#{{ $element }}</a>
+                  {{ else }}          
+                    {{ if gt $len 2 }}
+                      <a href="/tags/{{ $element | urlize }}">#{{ $element }}</a>,
+                    {{ else }}
+                      <a href="/tags/{{ $element | urlize }}">#{{ $element }}</a>
+                    {{ end }}
+                  {{ end }}
+                {{ end }}
+              {{ end }}</p>
+          <p>{{ .Summary }}</p>
+      </div>
+        {{ end }}
+    </div>
+
+{{ partial "footer.html" . }}

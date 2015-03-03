@@ -2,7 +2,23 @@
 
     <div class="col-md-10" id="content'">
       <h2 class="first">{{ .Title  }}</h2>
-      <p class="date">Published on {{ dateFormat "Monday, Jan 2, 2006" .Date }}</p>
+      <p class="date">Published on {{ dateFormat "Monday, Jan 2, 2006" .Date }}
+		{{ $len := len .Params.tags }}
+		{{ if gt $len 0 }}
+			under 
+			{{ range $index, $element := sort .Params.tags }} 
+        		{{ if and (le (sub (sub $len 1) $index) 0) (gt $len 1) }}
+                	and <a href="/tags/{{ $element | urlize }}">#{{ $element }}</a>
+				{{ else }}
+					{{ if gt $len 2 }}
+						<a href="/tags/{{ $element | urlize }}">#{{ $element }}</a>,
+					{{ else }}
+						<a href="/tags/{{ $element | urlize }}">#{{ $element }}</a>
+					{{ end }}
+				{{ end }}
+        	{{ end }}
+        {{ end }}
+      </p>
       
       {{ .Content }}
     </div>
