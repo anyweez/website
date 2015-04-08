@@ -14,8 +14,7 @@ body {
   color: #999; }
 
 .post {
-  border-left: 5px solid #eee;
-  padding-left: 12px; }
+  padding-left: 0px; }
 
 .intro {
   margin-bottom: 80px; }
@@ -29,5 +28,10 @@ body {
     border: 2px solid #121; }
   #sidebar #subtitle {
     font-size: 16px; }
+
+.book-cover img {
+  max-width: 10%;
+  float: left;
+  margin: 0 15px 0 0; }
 
 /*# sourceMappingURL=salis.css.map */
