@@ -1,9 +1,9 @@
 {{ partial "header.html" . }}
 
     <div class="col-md-10" id="content'">
-        <p><b>Welcome!</b>  I'm currently a product manager at YouTube and began my career at Google working on search products. Before starting work I got my bachelors in computer science at Clemson University and masters at UC Berkeley. While at Berkeley I was the head TA for <a href="http://cs10.org/">CS10: the Beauty and Joy of Computing</a>, an intro-level computer science class that ignited my interest in human motivation and education. I'm a believer in the power of technology paired with human ingenuity to solve important human problems, and am fascinated by learning, motivation, and public policy. I want everyone to care about something.</p>
-
-        <br />
+        <p><b>Welcome!</b>  Here's you'll find doses of many things I think about in my spare time, and hopefully give you some things to think about in yours. I'd love to hear from you if you're interested in anything I mention here, especially if it's about one of my favorite things. Find out more about me, <a href="/lifestuff">stuff I've done</a>, or get started below!</p> 
+	<p>“So you see! There's no end to the things you might know, depending how far beyond Zebra you go." - Dr. Seuss</p>
+	<hr />
 
     	{{ range $index, $element := first 10 (where .Data.Pages "Type" "post") }}
     	<div class="post">

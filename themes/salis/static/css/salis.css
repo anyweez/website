@@ -6,6 +6,10 @@ body {
   body h1 {
     font-size: 30px; }
 
+hr {
+  height: 1px;
+  background-color: #ccc; }
+
 .first {
   padding-top: 0px;
   margin-top: 0px; }
