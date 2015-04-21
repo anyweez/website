@@ -1,0 +1,31 @@
++++
+date = "2015-04-20T00:16:18-07:00"
+draft = true
+tags = ["neckbeard"]
+title = "Heatwave, my first mobile app"
++++
+
+I use my phone a lot, but not nearly as much as I should for calling and legitimately catch up with my distant friends. I'm not what one would call a maestro at keeping in touch, and often my phone serves as much as a distraction as it does a helpful tool for improving my life. Back in 2013 I was spending quite a bit of time walking back and forth between school and home and noticed that I was calling the same family-and-girlfriend circle and regularly losing track of how long it'd be since I'd talked to other friends. 
+
+I decided to take a stab at mobile app development around the same time and decided that it'd be fun to see if I could come up with something that'd make it easier for me to catch up with friends that I hadn't talked with recently, and [Heatwave](https://play.google.com/store/apps/details?id=com.lukesegars.heatwave) was born. In essence, the goal of the app is to offer a list of users from your address book and provide indicators for how long it's been since I've contacted them. You can add different contact frequencies for different groups of contacts based on how long you want to go between catch-ups; for example, family could be weekly while more distant friends could be every couple of months. Tapping on someone's name calls them directly, and that's all you could do. It's a pretty straightforward app but fills a gap that I haven't seen many good alternatives for and does it well, even years later.
+
+**What I wanted**
+
+From a personal perspective, I wanted something that would remind me to call my friends. I didn't actually want _reminders_ to bug me, but I wanted to have the information at my fingertips for my walks home. I wasn't looking to make it any bigger than that; I'm not an avid InstaFaceSnapTweet user and don't think of those as high-quality "catch up" conversations anyway. I wanted something that wasn't going to crash, wasn't going to make me sign in and sync all of my accounts across the web, and gave me what I wanted fast. Just phone calls.
+
+From a developer's perspective, writing code for a phone is like being a kid in a candy store. There are _so many things you can do_ that it's difficult to actually settle down and do any of them. Realistically I knew that it was going to be really hard for me to support a bunch of different features and the added complexity it would introduce so I decided to settle on my core use case: picking people from my address book, figuring out how long it'd been since I called them, and making it easy to tap and call if I wanted to. No SMS, Facebook, Twitter, Snapchat, Instagram, etc etc etc support. Just phone calls.
+
+That'd give me something that addressed my problem directly, gave me a technical intro to how to write mobile apps, and would also give me a distant dream of writing a maintainable app that wouldn't fall apart into digital garbage a year later. It would just do phone calls.
+
+**Building the app**
+
+Straight up: this was a great learning project for me, and I'd encourage you to check out the [source code](https://github.com/luke-segars/heatwave) if it's of interest.
+
+The crux of the app used two Android API's ([Contacts](http://developer.android.com/reference/android/provider/Contacts.html) and [Call Log](http://developer.android.com/reference/android/provider/CallLog.html)) and blended them together into a frontend, primarily dominated by a single ListActivity.
+
+One of the technical challenges that honestly still isn't solved to my satisfaction is launch latency. The challenge is that when the app is first launched, the app needs to find the last phone call that was made for each person that the user has added to a "wave" (Heatwave's name for a user group). This requires scanning a sizeable chunk of the call log to ensure that the right information is at hand. It turns out that at the time the call log wasn't indexed by contact information so answering the question "when was the last time I called X" took a linear scan of the log, which wasn't necessarily fast. With the initial implementation it took between five and ten seconds to load the initial screen after opening the app with only a modest set of users added, which felt really slow compared to other apps I was used to using. I did a few things to improve performance, both at first launch and as the user was flipping through various Activities:
+
+* **Start with most recent and work your way backwards.** This is the simplest algorithmic tweak and helps when the most recent call is recent (most cases). In some cases it helped a bunch and in others it provided a modest improvement. This was a nice improvement given how the app uses the information but still didn't provide guarantees about runtime or bound it in any useful way for users who really hadn't called someone in a while; the first use (post install) being a case I was worried about.
+* **Cache information in RAM once it's retrieved.** 
+* **Update the live cache when the app is running in the background.**
+* **Cache 'last call' field in durable storage.** 
