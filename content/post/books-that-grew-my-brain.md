@@ -9,13 +9,15 @@ I love nonfiction. I finished reading [Guns, Germs, and Steel](http://www.amazon
 
 Below I've included a list of some books that have changed the way that I thought about something; they cover a variety of topics that I find interesting. Pretty much all of them are for "beginners" on a given topic, so relatively little background is required. I'll likely follow up with more of these in the future as I discover more nuggets.
 
+<div class="gap" style="clear:both">&nbsp;</div>
+
 {{% figure src="http://ecx.images-amazon.com/images/I/61633LFpDXL.jpg" class="book-cover" %}}
 
 [**Man's Search for Meaning**](http://www.amazon.com/Mans-Search-Meaning-Viktor-Frankl/dp/080701429X) by Viktor Frankl is a book written by a Jewish psychiatrist who was sent to Auschwitz during WWII and emerged from the camps with a new perspective on what drives individuals to continue to fight during the darkest of times. He's got the unique perspective of someone who spent years in a series of the most infamous concentration camps as well as someone with a sophisticated understanding of human thought processes and puts both of them to good use in his book. Though I've never been through anything remotely as horrifying as concetration camp life, I find the lessons his extracts from his time there to match my own experience and philosophy quite well: that humans are motivated by the search for meaning, and that finding a sense of meaning one way or another gives us extraordinary willingness to fight for making it a reality.
 
 As a relative newcomer to psychiatry, I found the first part of his book, which focused on his time in the concentration camp, to be the most approachable and useful section. The second half, dedicated to distilling his philosophy ("[logotherapy](http://en.wikipedia.org/wiki/Logotherapy)"), was informative but the gist was unsurprising after his narration of the events in the first section. The first section was the type of thing that I think most people would appreciate and provides valuable insight into a remarkable case study of perseverence in a time where very few things are going your way.
 
-<div style="clear:both">&nbsp;</div>
+<div class="gap" style="clear:both">&nbsp;</div>
 
 {{% figure src="http://ecx.images-amazon.com/images/I/71PfSSTKDFL.jpg" class="book-cover" %}}
 
@@ -23,7 +25,7 @@ As a relative newcomer to psychiatry, I found the first part of his book, which 
 
 I came out feeling not only like I'd learned a lot but that I actually understood it well enough to explain it to someone else. I wrapped this book up a month or so and have been on an intense space kick ever since. If you're at all interested in the origin of the universe, how things have proceeded since the Big Bang, or what's likely to happen down the road a couple of billion years, there aren't many books I'd endorse more than this one. Lawrence Krauss is the man, and many of his lectures on YouTube are worth watching as well.
 
-<div style="clear:both">&nbsp;</div>
+<div class="gap" style="clear:both">&nbsp;</div>
 
 {{% figure src="http://ecx.images-amazon.com/images/I/51LNw0pdI9L.jpg" class="book-cover" %}}
 
@@ -31,7 +33,7 @@ I came out feeling not only like I'd learned a lot but that I actually understoo
 
 The book also spends a lot of time talking about how, for a variety of reasons related to how our society operates, those who make it to leadership positions often lose the ability to relate to the majority of people that their decisions affect. The final section gives some high-level guidelines around what would need to change to reverse this trend and lead to more stable organizations, one of the key ideas being thinking more about equality of outcome in decision-making, not just equality of opportunity (the latter being one whose failures have brought us the colorful examples above). As someone who really appreciates the idea of meritocracies on paper, the evidence presented here is pretty compelling that long-term stability of a meritocratic institution is really tough.
 
-<div style="clear:both">&nbsp;</div>
+<div class="gap" style="clear:both">&nbsp;</div>
 
 {{% figure src="http://ecx.images-amazon.com/images/I/31TFUGcfhfL.jpg" class="book-cover" %}}
 
@@ -39,7 +41,7 @@ The book also spends a lot of time talking about how, for a variety of reasons r
 
 I'm thankful for this book because it gave me the framework to think about things involving more than the four dimensions (3D space + time) that we regularly experience without a bunch of theory-speak. It's an incredibly simple book in terms of plot, is quick to read and relatively easy to follow, but still stretches your brain in fun ways.
 
-<div style="clear:both">&nbsp;</div>
+<div class="gap" style="clear:both">&nbsp;</div>
 
 {{% figure src="http://ecx.images-amazon.com/images/I/41VUK6mG1sL.jpg" class="book-cover" %}}
 
@@ -47,7 +49,7 @@ I'm thankful for this book because it gave me the framework to think about thing
 
 The book proposes standard run-of-the-mill questions with thought-provoking answers from the perspective of God about a bunch of different subjects, and focuses as much on the questions as it does on any particular answers. It also has some practical lessons about life, one of my favorite ones being that "the opposite of love is fear," not hatred, which still sticks with me to this day. Without trying to be overly scientific or preachy I found that the questions that the book asks explictly have led to some of the most important religious and spiritual iterations I've ever been through. It's not a book you read to discover a new religion as much as it is one you'd read to develop a broader perspective of what could be believed.
 
-<div style="clear:both">&nbsp;</div>
+<div class="gap" style="clear:both">&nbsp;</div>
 
 {{% figure src="http://ecx.images-amazon.com/images/I/81Tk1pQOxuL.jpg" class="book-cover" %}}
 

@@ -23,6 +23,9 @@ hr {
 .intro {
   margin-bottom: 80px; }
 
+.gap {
+  height: 5px; }
+
 #sidebar {
   text-align: center;
   padding-right: 1%; }
