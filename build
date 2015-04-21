@@ -9,3 +9,4 @@ cp -R themes/salis/static/js/ public/js
 
 # Run hugo explicitly (no effect if hugo server is watching this directory) 
 # hugo --verbose
+hugo
