@@ -1,6 +1,6 @@
 +++
 date = "2015-05-02T08:09:46-07:00"
-draft = true
+draft = false
 tags = ["reflections"]
 title = "I shall pass this way but once"
 +++
@@ -24,7 +24,7 @@ __Love people and let them know it.__
 
 * Sam nailed this one in his post. People have complicated stories and very few are legitimately terrible. Pay attention to people and assume good intentions. Don't underestimate the power of kindness.
 
-* You literally can't tell people that you appreciate them enough. It's amazing how much it can mean to hear it, and you never know when you might lose the chance to say it. Don't wait.
+* You really can't tell people that you appreciate them enough. It's amazing how much it can mean to hear it, and you never know when you might lose the chance to say it. Don't wait.
 
 * Don't let yourself overreact. Abraham Lincoln used to put any heated letter that he wrote in a cabinet overnight, then reread it in the morning before sending it. Nothing is gained from overreacting, and the key to avoiding it is knowing to watch for it.
 
