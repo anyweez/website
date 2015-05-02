@@ -1,7 +1,7 @@
 +++
 date = "2015-03-02T22:37:11-08:00"
 draft = false
-tags = ["lessons"]
+tags = ["reflections"]
 title = "Picking your battles"
 +++
 

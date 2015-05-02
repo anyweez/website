@@ -1,7 +1,7 @@
 +++
 date = "2015-05-02T08:09:46-07:00"
 draft = true
-tags = []
+tags = ["reflections"]
 title = "I shall pass this way but once"
 +++
 
@@ -39,6 +39,8 @@ __No regrets.__
 * Like Sam said, if you think you're going to regret it, do it. Second chances are rare.
 
 * Avoid setting yourself up for regret. Always be striking things off and adding things on to your bucket list. Though it might sound morbid, be ready to die at any time.
+
+* Confront fear.
 
 And last but not least, an excellent quote that I think pulls all of this together:
 
