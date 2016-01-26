@@ -23,7 +23,7 @@ In my experience, the average newcomer to the world of coding tends to have two 
 
 The right path to "learning to code" is the one that will most successfully help an individual learn these three skills because these are the skills that will put you in a position to grow over time. How much you know when you finish whatever degree, certificate, bootcamp, online tutorial, etc you're using matters less than what you're able to figure out in the days, months, and years after that.
 
-Let's look for a minute at each of these three skills and why they're important.
+Let's take a look at each of these three skills and briefly explore why they're important.
 
 ### The developer mindset
 Code looks like gibberish when inexperienced eyes look at it, but the vocabulary of a given language is actually pretty limited. Learning the keywords and syntax is an exercise that becomes easier (and usually less interesting) over time; learning how to convert a human problem into code is substantially more difficult (and usually more interesting). [Most people that I know who love coding love it for the latter](https://www.quora.com/Why-do-you-love-coding-so-much), and that requires fostering a developer's mindset.
@@ -38,7 +38,7 @@ Perhaps the biggest perk of coding is the relentless dedication to learning that
 You do not know everything you need to know right now, and that's a good thing. But it does mean that you're not done when you finish your bootcamp, degree, tutorial, etc. In fact in many ways it's opened doors for more things to not know. If you can get to a point to where that's a comfortable (or dare I say...exciting) idea, you're well on your way.
 
 ### Computation and programming
-Last but not least comes the place where we began: learning the essence of what it means to program. It is true that the more you know, the better off you will be. If you know about memory management and garbage collection, that's amazing! If you know about why we have packet-switched networks and why the internet is architected the way it is, superb! Does your heart start racing when you get to discuss the trade-offs of various systems prescribed by the [CAP theorem](https://en.wikipedia.org/wiki/CAP_theorem), the blockchain, or general purpose consensus protocols? How could it *not*?
+Last but not least comes the place where we began: learning the essence of what it means to program. It is true that the more you know, the better off you will be. If you know about memory management and garbage collection, that's amazing! If you know about why we have packet-switched networks and why the internet is architected the way it is, superb! Does your heart start racing when you get to discuss the blockchain, general purpose consensus protocols, or the trade-offs of various systems prescribed by the [CAP theorem](https://en.wikipedia.org/wiki/CAP_theorem)? How could it *not*?
 
 Hear me out:
 
