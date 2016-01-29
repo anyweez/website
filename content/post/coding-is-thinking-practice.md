@@ -1,6 +1,6 @@
 +++
-date = "2016-01-19T22:26:14-07:00"
-draft = true
+date = "2016-01-29T22:26:14-07:00"
+draft = false
 tags = ['reflections']
 title = "Coding is thinking practice"
 +++
