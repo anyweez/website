@@ -1,38 +1,40 @@
 body {
-	font-family: 'Raleway', sans-serif;
-	font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
     padding: 50px;
-
     background-color: #fafafa;
-
-	h1 {
-		font-size: 30px;
-	}
-
+    h1 {
+        font-size: 30px;
+        margin: 20px 0;
+    }
 }
 
 hr {
-	height: 1px;
-	background-color: #ccc;
+    height: 1px;
+    background-color: #ccc;
+}
+
+blockquote {
+    margin: 10px 0;
 }
 
 .first {
-	padding-top: 0px;
-	margin-top: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
 }
 
 .date {
-	color: #999;
+    color: #999;
 }
 
 .post {
-	padding-left: 0px;
+    padding-left: 0px;
 }
 
 .intro {
-	margin-bottom: 80px;
+    margin-bottom: 80px;
 }
 
 .gap {
-	height: 5px;
+    height: 5px;
 }
